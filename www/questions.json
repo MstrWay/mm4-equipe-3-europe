@@ -1,0 +1,46 @@
+[
+	{
+    	"question": "Accepteriez-vous que des centaines de personnes meurent en Méditerranée chaque mois ?",
+        "response": { "oui": "img/1oui.png", "non": "img/1non.png" }
+    },
+    {
+    	"question": "Seriez-vous prêt à payer 30% d’impôts en plus pour compenser l’évasion fiscale ?",
+        "response": { "oui": "img/2oui.png", "non": "img/2non.png" }
+    },
+    {
+    	"question": "Accepteriez-vous d’être discriminé et insulté en fonction de vos croyances religieuses ?",
+        "response": { "oui": "img/3oui.png", "non": "img/3non.png" }
+    },
+    {
+    	"question": "Accepteriez-vous que les écosystèmes soient détruits au profit du tourisme de masse ?",
+        "response": { "oui": "img/4oui.png", "non": "img/4non.png" }
+    },
+    {
+    	"question": "Seriez-vous prêt à élire un chef d’état populiste et manipulateur ?",
+        "response": { "oui": "img/5oui.png", "non": "img/5non.png" }
+    },
+    {
+    	"question": "Accepteriez-vous de naître avec 50% de chance d’être discriminé ?",
+        "response": { "oui": "img/6oui.png", "non": "img/6non.png" }
+    },
+    {
+    	"question": "Seriez-vous prêt à vendre des produits alimentaires cancérigènes ?",
+        "response": { "oui": "img/7oui.png", "non": "img/7non.png" }
+    },
+    {
+    	"question": "Regarderiez-vous quelqu’un en grande détresse sans l’aider ?",
+        "response": { "oui": "img/8oui.png", "non": "img/8non.png" }
+    },
+    {
+    	"question": "Accepteriez-vous de décider pour quelqu’un d’autre sans lui demander son avis ?",
+        "response": { "oui": "img/9oui.png", "non": "img/9non.png" }
+    },
+    {
+    	"question": "Seriez-vous prêt à laisser vos enfants grandir avec des problèmes respiratoires ?",
+        "response": { "oui": "img/10oui.png", "non": "img/10non.png" }
+    },
+    {
+    	"question": "Accepteriez-vous qu’on vous interdise d’être heureux ?",
+        "response": { "oui": "img/11oui.png", "non": "img/11non.png" }
+    }
+]

@@ -1,0 +1,597 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Averta", "sans-serif";
+    min-height: 100vh;
+}
+
+
+main{
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 110px;
+}
+
+.bggradrient{
+    background-image: linear-gradient(to bottom, #040507, rgba(7, 8, 12, 0.83) 100%, rgba(0, 0, 0, 0));
+}
+
+@font-face{
+    font-family: "Averta";
+    src: url("assets/font/Averta-Regular.otf");
+    font-weight: 100;
+   }
+@font-face{
+    font-family: "Averta";
+    src: url("assets/font/Averta-Bold.otf");
+    font-weight: 700;
+}
+   
+@font-face{
+    font-family: "CircularStd";
+    src: url("assets/font/CircularStd-Bold.otf");
+    font-weight: 700;
+}
+   
+@font-face{
+    font-family: "CircularStd";
+    src: url("assets/font/CircularStd-Book.otf");
+    font-weight: 100;
+}
+   
+header {
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 40px
+}
+
+h1 {
+    height: 42px;
+    margin-top: 70px;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+}
+
+h2 {
+    font-family: Averta;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    color: white;
+}
+
+h2 span{
+    color: #fe0231;
+}
+
+.h2_vote{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    width: 560px;
+    color: #1649a1;
+}
+
+.h2_form{
+    color: #1649a1;
+}
+
+h3{
+    margin: auto;
+    font-family: CircularStd;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1649a1; 
+
+}
+
+p{
+    font-family: CircularStd;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    color: #8c9091;
+
+}
+
+/*Page d'accueil*/
+
+.main_home{
+    height: 590px;
+    margin-top: 140px;
+}
+
+#countdown {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.countdown {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#countdown .countdown > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#countdown div div{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-image: linear-gradient(to top, #141720, #080a0e);
+  width: 160px;
+  height: 177px;
+}
+#countdown span {  
+    font-family: "Averta";
+    text-align:center;
+    font-weight:bolder; 
+    font-size:80px;  
+    color:white; 
+    
+}
+
+#countdown span:last-of-type{
+  font-size: 18px;
+  color: #8c9091;
+  font-family: "CircularStd";
+}
+
+
+#credit {
+    margin:20px 0 0;
+}
+
+#button {
+  font-family: "CircularStd";
+  font-size: 18px;
+  color: white;
+  background-color:#fe0231;
+  padding: 20px 50px;
+  border-radius: 3px;
+  box-shadow: 0 4px 30px 0 rgba(254, 2, 49, 0.28);
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  width: 231px;
+  text-decoration: none;
+}
+
+/*Pages questions*/
+
+.h2question{
+    max-width: 640px;
+    margin: 70 auto;
+    text-align: center;
+}
+
+
+.reponses {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.reponses article {
+    text-align: center;
+}
+
+.reponses article span {
+    color: #fe0231;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.logo {
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+.numquestion {
+    color: #8c9091;
+    margin-top: 60px;
+    margin-left: 275px;
+}
+
+.oui {
+    border-radius: 3px;
+    box-shadow: 0 4px 30px 0 #080a0f;
+    background-color: #121314;
+}
+
+.non {
+    border-radius: 3px;
+    box-shadow: 0 4px 30px 0 #080a0f;
+    background-color: #121314;
+    margin-left: 40px;
+
+}
+
+.ouiphoto {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nonphoto {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texteoui {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texteoui p{
+    color: #fe0231;
+}
+
+.textenon {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textenon p{
+    color: #fe0231;   
+}
+
+.croix {
+    float: right;
+    margin-top: -38px;
+    margin-right: 20rem;
+}
+
+.footer_barre{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    background-color: #090b10;
+}
+
+/*Page Formulaire*/
+
+.container{
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.partie-gauche {
+    margin-right: 200px;
+}
+
+.partie-gauche2 {
+    margin-right: 200px;
+    height: 500px;
+}
+
+.partie-droite{
+    width: 500px;
+}
+
+.txt-form {
+    font-family: CircularStd;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    color: #8c9091;
+}
+
+.label-form{
+    font-family: CircularStd;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #8c9091;
+}
+
+.label-form-bold{
+    font-family: CircularStd;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1649a1;
+}
+
+.cta-form{
+    width: 500px;
+    height: 57px;
+    border-radius: 3px;
+    box-shadow: 0 4px 30px 0 rgba(22, 73, 161, 0.3);
+    background-color: #1649a1;
+    font-family: CircularStd;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.form-vote{
+    display: flex; 
+    flex-flow: column;
+}
+
+.form-sexe-bday{
+    display: flex;
+    flex-flow: row;
+}
+
+.form-vote input{
+    margin-top: 23px;
+    outline: 0px;
+    border: 0px
+}
+
+.form-vote label{
+    margin-top: 20px;
+
+}
+
+.form-vote #commune{
+    width: 243px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #f8f9ff;
+    margin-top: 10px
+}
+
+.form-vote #code_postal{
+    width: 243px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #f8f9ff;
+    margin-top: 10px
+}
+
+.form-vote #nom{
+    width: 243px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #f8f9ff;
+}
+
+.form-vote #prenom{
+    width: 243px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #f8f9ff;
+}
+
+.form-vote #bday{
+    width: 268px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #f8f9ff;
+    font-family: CircularStd;
+    opacity: 0.60;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #8c9091;
+
+}
+
+.form-vote #bday::placeholder {
+    padding-left: 20px;
+}
+
+.label-commune-postale{
+    display: flex;
+    flex-flow: row;  
+}
+
+.label-commune-postale div:first-child{
+    margin-right: 10px;
+}
+
+.form-nom-prenom{
+    display: flex;
+    flex-flow: row;
+}
+
+.form-nom-prenom div:first-child{
+    margin-right: 10px;
+}
+
+.form-masculin-feminin{
+    display: flex; 
+    align-items: center;
+    margin-right: 37px;
+    
+
+}
+
+.form-masculin-feminin input{
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    background-color: #f8f9ff;
+    margin-left: none;
+    
+}
+
+.form-masculin-feminin p{
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+.form-masculin-feminin div:first-child{
+    padding: 10px; 
+}
+
+.form-masculin-feminin #feminin{
+    margin-left: 20px;
+}
+
+.cta-form{
+    margin-top: 30px;
+}
+
+
+/*Resultat Formulaire*/
+
+.resultat_electoral{
+    width: 500px;
+    height: 505px;
+    border-radius: 3px;
+    background-color: #f8f9ff;
+    margin: 0;
+}
+
+.text_resultat{
+    padding: 40px;
+}
+
+.bold_like_h3{
+    font-family: CircularStd;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1649a1; 
+}
+
+/* Footer */
+
+footer {
+    
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 190px;
+  background-color: #090b10;
+  display: flex;
+  align-items: center;
+}
+
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .links {
+  display: flex;
+  align-items: center;
+
+}
+
+footer .links a:first-child {
+  margin-right: 50px;
+}
+
+footer .utils {
+  margin-left: 300px;
+}
+
+footer .socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .socials ul {
+  justify-content: center;
+  align-items: center;
+}
+
+footer .socials li, footer .utils li {
+  margin: 10px 0;
+  list-style: none;
+}
+
+footer .socials a img {
+  margin-right: 35px;
+}
+
+footer a {
+  transition: all .3s ease;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.grid .col-6 {
+  grid-column: span 6;
+
+}
+
+.grid .col-4 {
+  grid-column: span 4
+}
+
+.grid .col-3 {
+  grid-column: span 3;
+}
+
+
+li a {
+  text-decoration: none;
+  color: #8c9091;
+}

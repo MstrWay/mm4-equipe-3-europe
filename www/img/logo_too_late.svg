@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121" height="37" viewBox="0 0 121 37">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="121" height="37" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_4" data-name="Group 4" clip-path="url(#clip-path)">
+    <text id="Too_late" data-name="Too late" fill="#fff" font-size="30" font-family="Averta-Bold, Averta ☞" font-weight="700" letter-spacing="0.033em"><tspan x="0.691" y="30">Too late</tspan></text>
+    <path id="Line" d="M0,.5H119" transform="translate(0 22)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>
