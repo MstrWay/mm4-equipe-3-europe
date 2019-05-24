@@ -1,4 +1,4 @@
-# mm4-equipe-x-europe
+# mm4-equipe-3-europe
 
 ## Introduction
 
@@ -17,5 +17,5 @@ La gestion des utilisateurs ce fait via une API CouchDB dont la description est 
 
 ## Restitution
 
-- Lien Google Drive présentation 1 <add-link-here>
-- Lien Google Drive présentation 2 <add-link-here>
+- Lien Google Drive présentation 1 : 
+- Lien Google Drive présentation 2 :
